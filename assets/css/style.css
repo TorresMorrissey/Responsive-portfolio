@@ -128,11 +128,16 @@ img {
 }
 
 
-footer {
-   border-top: 8px solid #4aaaa5;
-   background-color: #666666;
-   position: fixed;
-}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
+    font-size: 50%;
+    border-top: 5px solid #4aaaa5;
+  }
 
 @media screen and (max-width: 960px) {}
 
@@ -140,6 +145,6 @@ footer {
 
 @media screen and (max-width: 640px) {
   .header {
-    position:fixed;
+    position: static;
   }
 }
